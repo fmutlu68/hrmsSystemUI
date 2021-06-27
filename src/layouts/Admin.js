@@ -9,6 +9,9 @@ import Sidebar from "../components/Sidebar/Sidebar.js";
 
 import routes from "../routes.js";
 
+import "assets/demo/demo.css";
+import "assets/scss/black-dashboard-react.scss";
+
 import logo from "../assets/img/react-logo.png";
 import { BackgroundColorContext } from "../contexts/BackgroundColorContext";
 

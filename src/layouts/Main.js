@@ -13,7 +13,7 @@ export default function Main() {
 
   let loadChildrenRoutes = (routes) => {
     return routes.map((prop, key)=> {
-      if (prop.layout === "/main" && prop.children !== undefined && prop.children !== null){
+      if (prop.layout === "/main" && prop.children !== undefined){
         return (
           <Route
             exact
@@ -55,7 +55,7 @@ export default function Main() {
         <Segment
           inverted
           textAlign="center"
-          style={{ minHeight: 680, padding: "1em 0em" }}
+          style={{ minHeight: 750, padding: "1em 0em" }}
           vertical
         >
           <MainNavbar getFixed={fixed}/>

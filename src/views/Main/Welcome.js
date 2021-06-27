@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Button, Container, Header } from "semantic-ui-react";
 export default function Welcome() {
   return (
@@ -24,7 +25,7 @@ export default function Welcome() {
             marginTop: "1.5em",
           }}
         />
-        <Button primary size="huge" onClick={() => window.scrollTo(0, 701)}>
+        <Button primary size="huge" onClick={() => window.scrollTo(0, 701)} as={NavLink} to="/admin/home">
           Haydi Başlıyalım
         </Button>
       </Container>

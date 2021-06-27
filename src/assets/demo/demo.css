@@ -137,3 +137,6 @@
     content: ""; }
   .offline-doc .page-header:before {
     background-color: rgba(0, 0, 0, 0.8); }
+*:focus {
+  outline: 0 !important;
+}

@@ -28,6 +28,7 @@ export default function ActivatePostings() {
     postingService
     .getPostingsNoActivated()
     .then((result) => setPostings(result.data.data));
+    console.log("Yüklendi.");
   }
   let remove = (posting) => {
     postingService.deletePosting(posting).then((result) => {

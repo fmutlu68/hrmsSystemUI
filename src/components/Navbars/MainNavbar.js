@@ -16,20 +16,29 @@ export default function MainNavbar({ getFixed }) {
           <Menu.Item as={NavLink} to="/main/welcome">
             Ana Sayfa
           </Menu.Item>
-          <Menu.Item as={NavLink} to="/employer/home">Sık Sorulan Sorular</Menu.Item>
+          <Menu.Item as={NavLink} to="/employer/home">
+            Sık Sorulan Sorular
+          </Menu.Item>
           <Menu.Item position="right">
             <Button
               primary
               icon
               labelPosition="left"
               as={NavLink}
-              to="/admin/home"
+              to="/main/login"
             >
               <Icon name="sign in" />
               Giriş Yap
             </Button>
 
-            <Button color="green" icon labelPosition="right" className="ml-2">
+            <Button
+              color="green"
+              icon
+              labelPosition="right"
+              className="ml-2"
+              as={NavLink}
+              to="/main/register"
+            >
               <Icon name="sign in alternate" />
               Kayıt Ol
             </Button>

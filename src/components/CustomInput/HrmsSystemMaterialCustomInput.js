@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import FormControl from "@material-ui/core/FormControl";
-import InputLabel from "@material-ui/core/InputLabel";
 import Input from "@material-ui/core/Input";
 // @material-ui/icons
 import Clear from "@material-ui/icons/Clear";
@@ -14,24 +13,16 @@ import styles from "assets/materialDashboard/jss/material-dashboard-react/compon
 
 const useStyles = makeStyles(styles);
 
-export default function CustomInput(props) {
+export default function HrmsSystemMaterialCustomInput(props) {
   const classes = useStyles();
   const {
     formControlProps,
     labelText,
     id,
-    labelProps,
     inputProps,
     error,
     success,
-    rtlActive,
   } = props;
-
-  const labelClasses = classNames({
-    [" " + classes.labelRootError]: error,
-    [" " + classes.labelRootSuccess]: success && !error,
-    [" " + classes.labelRTL]: rtlActive,
-  });
   const underlineClasses = classNames({
     [classes.underlineError]: error,
     [classes.underlineSuccess]: success && !error,
@@ -50,17 +41,9 @@ export default function CustomInput(props) {
   return (
     <FormControl
       {...formControlProps}
+        fullWidth={true}
       className={formControlProps.className + " " + classes.formControl}
     >
-      {labelText !== undefined ? (
-        <InputLabel
-          className={classes.labelRoot + labelClasses}
-          htmlFor={id}
-          {...labelProps}
-        >
-          {labelText}
-        </InputLabel>
-      ) : null}
       <Input
         classes={{
           root: marginTop,
@@ -70,6 +53,7 @@ export default function CustomInput(props) {
         id={id}
         {...inputProps}
         inputProps={newInputProps}
+        placeholder={labelText}
       />
       {error ? (
         <Clear className={classes.feedback + " " + classes.labelRootError} />
@@ -80,7 +64,7 @@ export default function CustomInput(props) {
   );
 }
 
-CustomInput.propTypes = {
+HrmsSystemMaterialCustomInput.propTypes = {
   labelText: PropTypes.node,
   labelProps: PropTypes.object,
   id: PropTypes.string,

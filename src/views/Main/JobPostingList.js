@@ -133,7 +133,6 @@ export default function JobPostingList() {
                         text: position.jobPositionName,
                       };
                     })}
-                    
                   />
                   <Button color="blue" className="mt-2">
                     Getir

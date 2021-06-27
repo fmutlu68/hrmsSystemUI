@@ -15,6 +15,8 @@ import styles from "assets/materialDashboard/jss/material-dashboard-react/layout
 import bgImage from "assets/materialDashboard/img/sidebar-2.jpg";
 import logo from "assets/materialDashboard/img/reactlogo.png";
 
+import "assets/materialDashboard/css/material-dashboard-react.css";
+
 let ps;
 
 const switchRoutes = (
@@ -71,7 +73,6 @@ export default function Admin({ ...rest }) {
     <div className={classes.wrapper}>
       <EmployerSidebar
         routes={routes}
-        logoText={"Creative Tim"}
         logo={logo}
         image={bgImage}
         handleDrawerToggle={handleDrawerToggle}
