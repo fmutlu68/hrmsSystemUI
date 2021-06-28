@@ -1,7 +1,7 @@
 # Hrms System Frontend
 ## İçerik
-* [**Giriş Bilgisi**] (#Giriş-Bilgisi)
-* [**Özellikler**] (#Özellikler)
+* [**Giriş Bilgisi**] (#giriş-bilgisi)
+* [**Özellikler**] (#özellikler)
 * [**Kullanılan Teknolojiler**] (#Kullanılan Teknolojiler)
 * [**Kullanılabilir Routelar**] (#Kullanılabilir Routelar)
 * [**Resimler**] (#Resimler)
