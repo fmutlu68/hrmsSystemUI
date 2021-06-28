@@ -1,5 +1,5 @@
 # Hrms System Frontend
-## İçerik
+## Table Of Contents
 * [**Giriş Bilgisi**] (#giriş-bilgisi)
 * [**Özellikler**] (#özellikler)
 * [**Kullanılan Teknolojiler**] (#Kullanılan Teknolojiler)
