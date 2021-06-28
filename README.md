@@ -1,6 +1,6 @@
 # Hrms System Frontend
 ## İçerik
-* [**Giriş Bilgisi**] (#giriş-bilgisi)
+* [**Giriş Bilgisi**] (#https://github.com/fmutlu68/hrmsSystemUI#giri%C5%9F-bilgisi)
 * [**Özellikler**] (#özellikler)
 * [**Kullanılan Teknolojiler**] (#Kullanılan Teknolojiler)
 * [**Kullanılabilir Routelar**] (#Kullanılabilir Routelar)
