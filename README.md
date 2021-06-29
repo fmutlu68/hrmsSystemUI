@@ -4,19 +4,14 @@
 [![Issues][issues-shield]][issues-url]
 
 
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/fmutlu68/hrmsSystemUI">
-    HrmsSystemFrontend
-  </a>
 
   <h3 align="center">Engin Demiroğ Java-React Kampı Frontend</h3>
 
   <p align="center">
-    Deneme
-<!--     <br /> -->
+    Hoşgeldiniz. Bu Proje Java-React Kampı'nın Frontend Bölümünde Verilen Ödevlerin Uygulandığı Projedir. Eğer Beğenirseniz Bir Yıldızınızı Alırım. Şimdiden Teşekkürler.
+  <!--     <br /> -->
 <!--     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -37,21 +32,29 @@
     <li>
       <a href="#proje-hakkında">Proje Hakkında</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li>
+          <a href="#built-with">Proje Katmanları</a>
+          <ul>
+            <li><a href="#built-with">Main - Genel Kullanıcı</a></li>
+            <li><a href="#built-with">Admin - Sistem Yöneticisi</a></li>
+            <li><a href="#built-with">Employer - İş Veren</a></li>
+            <li><a href="#built-with">Employee - İş Arayan/İşçi</a></li>
+          </ul>
+          <a href="#projede-kullanılan-teknolojiler">Projede Kullanılan Teknolojiler</a>
+        </li>
+        
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#proje-kurulumu-çalıştırılması">Projenin Kurulumu/Çalıştırılması</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#proje-kurulumu">Prerequisites</a></li>
+        <li><a href="#proje-çalıştırılması">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#proje-haritası">Proje Haritası</a></li>
+    <li><a href="#iletişim">İletişim</a></li>
+    <li><a href="#kapanış">Kapanış Ve Teşekkür</a></li>
   </ol>
 </details>
 
@@ -60,11 +63,9 @@
 <!-- ABOUT THE PROJECT -->
 ## Proje Hakkında
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Proje Ana Ekranıt][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+
 
 
 ### Built With
@@ -156,3 +157,4 @@ Project Link: [https://github.com/fmutlu68/hrmsSystemUI](https://github.com/fmut
 [stars-url]: https://github.com/fmutlu68/hrmsSystemUI/stargazers
 [issues-shield]: https://img.shields.io/github/issues/fmutlu68/hrmsSystemUI.svg?style=for-the-badge
 [issues-url]: https://github.com/fmutlu68/hrmsSystemUI/issues
+[product-screenshot]: https://github.com/fmutlu68/hrmsSystemUI/blob/master/documentation/images/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20(600).png
