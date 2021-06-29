@@ -1,9 +1,7 @@
-<p align="center">
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-</p>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 <br />
 <p align="center">
@@ -18,49 +16,53 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Dökümantasyon İçeriği</h2></summary>
-  <ol>
-    <li>
-      <a href="#built-with">Proje Katmanları</a>
-          <ul>
-            <li><a href="#built-with">Main - Genel Kullanıcı</a></li>
-            <li><a href="#built-with">Admin - Sistem Yöneticisi</a></li>
-            <li><a href="#built-with">Employer - İş Veren</a></li>
-            <li><a href="#built-with">Employee - İş Arayan/İşçi</a></li>
-          </ul>
-          <a href="#projede-kullanılan-teknolojiler">Projede Kullanılan Teknolojiler</a>
-    </li>
-    <li>
-    <a href="#proje-kurulumu-çalıştırılması">Projenin Kurulumu/Çalıştırılması</a>
-      <ul>
-        <li>
-          <a href="#proje-kurulumu">Proje Kurulumu</a>
-          <a href="#proje-çalıştırılması">Projenin Çalıştırılması</a>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#proje-haritası">Proje Haritası</a></li>
-    <li><a href="#iletişim">İletişim</a></li>
-    <li> <a href="#kapanış">Kapanış Ve Teşekkür</a></li>
-  </ol>
-</details>
+<summary><h2 style="display: inline-block">Dökümantasyon İçeriği</h2></summary>
+<ol>
+  <li>
+    <a href="#katmanlar">Proje Katmanları</a>
+    <ul>
+      <li><a href="#genel-kullanıcı-katmanı">Main - Genel Kullanıcı</a></li>
+      <li><a href="#admin-katmanı">Admin - Sistem Yöneticisi</a></li>
+      <li><a href="#employer-katmanı">Employer - İş Veren</a></li>
+      <li><a href="#employee-katmanı">Employee - İş Arayan/İşçi</a></li>
+    </ul>
+  </li>
+  <li><a href="#kullanılan-başlıca-paketler">Kullanılan Başlıca Paketler</a></li>
+  <li>
+    <a href="#projenin-kurulumu-ve-çalıştırılması">Projenin Kurulumu/Çalıştırılması</a>
+    <ul>
+      <li><a href="#proje-kurulumu">Proje Kurulumu</a></li>
+      <li><a href="#projenin-çalıştırılması">Projenin Çalıştırılması</a></li>
+    </ul>
+  </li>
+  <li><a href="#proje-haritası">Proje Haritası</a></li>
+  <li><a href="#iletişim">İletişim</a></li>
+  <li> <a href="#kapanış">Kapanış Ve Teşekkür</a></li>
+</ol>
 
 
 
-<!-- ABOUT THE PROJECT -->
-## Proje Hakkında
+## Katmanlar
 
-[![Proje Ana Ekranıt][product-screenshot]](https://example.com)
+### Genel Kullanıcı Katmanı
+### Admin Katmanı
+### Employer Katmanı
+### Employee Katmanı
+
+## Proje Haritası
 
 
+## Kullanılan Başlıca Paketler
 
-
-### Built With
-
-* []()
-* []()
-* []()
+* [Bootstrap](https://getbootstrap.com)
+* [Semantic-Ui-React](https://react.semantic-ui.com/)
+* [Material-Ui](https://material-ui.com/)
+* [Redux](https://redux.js.org/)
+* [Redux Thunk](https://github.com/reduxjs/redux-thunk)
+* [Axios](https://github.com/axios/axios)
+* [Formik](https://formik.org/)
+* [Reactstrap](https://reactstrap.github.io/)
+* [Perfect Scrollbar](https://github.com/mdbootstrap/perfect-scrollbar)
 
 
 
@@ -69,7 +71,7 @@
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+## Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -77,16 +79,21 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-### Installation
+## Projenin Kurulumu Ve Çalıştırılması
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+### Proje Kurulumu
+Projeyi İndirip Bir Klasöre Çıkartıyoruz. Ardından Bir Terminal Açıyoruz Ve 
+* ```
+  npm install
+  ```
+ Komutunu Çalıştırıyoruz. Böylece Paketleri Projemize Ekliyoruz. Paketlerin Yüklenmesi Biraz Uzun Sürebilir.
+
+### Projenin Çalıştırılması
+Paketleri Yükledikten Sonra 
+* ```
+  npm start
+  ```
+Komutu İle Projemizi Çalıştırıyoruz.
 
 
 
