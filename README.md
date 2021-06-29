@@ -1,8 +1,9 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
+<p align="center">
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+</p>
 
 <br />
 <p align="center">
@@ -11,16 +12,7 @@
 
   <p align="center">
     Hoşgeldiniz. Bu Proje Java-React Kampı'nın Frontend Bölümünde Verilen Ödevlerin Uygulandığı Projedir. Eğer Beğenirseniz Bir Yıldızınızı Alırım. Şimdiden Teşekkürler.
-  <!--     <br /> -->
-<!--     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a> -->
-  </p>
+  
 </p>
 
 
@@ -43,22 +35,18 @@
           <a href="#projede-kullanılan-teknolojiler">Projede Kullanılan Teknolojiler</a>
         </li>
       </ul>
-    </li>
-  </ol>
-  <ol>
-    <li>
       <a href="#proje-kurulumu-çalıştırılması">Projenin Kurulumu/Çalıştırılması</a>
       <ul>
         <li><a href="#proje-kurulumu">Prerequisites</a></li>
         <li><a href="#proje-çalıştırılması">Installation</a></li>
       </ul>
+   
+    <a href="#proje-haritası">Proje Haritası</a>
+    <a href="#iletişim">İletişim</a>
+    <a href="#kapanış">Kapanış Ve Teşekkür</a>
+  
     </li>
   </ol>
-   
-    <li><a href="#proje-haritası">Proje Haritası</a></li>
-    <li><a href="#iletişim">İletişim</a></li>
-    <li><a href="#kapanış">Kapanış Ve Teşekkür</a></li>
-  
 </details>
 
 
