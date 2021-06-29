@@ -42,9 +42,10 @@
           </ul>
           <a href="#projede-kullanılan-teknolojiler">Projede Kullanılan Teknolojiler</a>
         </li>
-        
       </ul>
     </li>
+  </ol>
+  <ol>
     <li>
       <a href="#proje-kurulumu-çalıştırılması">Projenin Kurulumu/Çalıştırılması</a>
       <ul>
@@ -52,10 +53,12 @@
         <li><a href="#proje-çalıştırılması">Installation</a></li>
       </ul>
     </li>
+  </ol>
+   
     <li><a href="#proje-haritası">Proje Haritası</a></li>
     <li><a href="#iletişim">İletişim</a></li>
     <li><a href="#kapanış">Kapanış Ve Teşekkür</a></li>
-  </ol>
+  
 </details>
 
 
