@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/fmutlu68/hrmsSystemUI">
-    `HrmsSystemFrontend`
+    HrmsSystemFrontend
   </a>
 
   <h3 align="center">Engin Demiroğ Java-React Kampı Frontend</h3>
@@ -35,7 +35,7 @@
   <summary><h2 style="display: inline-block">Dökümantasyon İçeriği</h2></summary>
   <ol>
     <li>
-      <a href="#proje-hakkinda">Proje Hakkında</a>
+      <a href="#proje-hakkında">Proje Hakkında</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
