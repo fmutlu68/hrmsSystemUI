@@ -35,18 +35,19 @@
           <a href="#projede-kullanılan-teknolojiler">Projede Kullanılan Teknolojiler</a>
         </li>
       </ul>
-      <a href="#proje-kurulumu-çalıştırılması">Projenin Kurulumu/Çalıştırılması</a>
+   </li>
+    <li>
+    <a href="#proje-kurulumu-çalıştırılması">Projenin Kurulumu/Çalıştırılması</a>
       <ul>
         <li>
           <a href="#proje-kurulumu">Proje Kurulumu</a>
           <a href="#proje-çalıştırılması">Projenin Çalıştırılması</a>
         </li>
       </ul>
-
-      <a href="#proje-haritası">Proje Haritası</a>
-      <a href="#iletişim">İletişim</a>
-      <a href="#kapanış">Kapanış Ve Teşekkür</a>
     </li>
+    <li><a href="#proje-haritası">Proje Haritası</a></li>
+    <li><a href="#iletişim">İletişim</a></li>
+    <li> <a href="#kapanış">Kapanış Ve Teşekkür</a></li>
   </ol>
 </details>
 
