@@ -45,8 +45,30 @@
 ## Katmanlar
 
 ### Genel Kullanıcı Katmanı
+<ul>
+  <li>Bu Katman İçin Herhangi Bir Authentication İşlemi Gerekmemektedir.</li>
+  <li>Projenin Başlangıç Sayfası Bu Katmandadır. (/main/welcome)</li>
+  <li>
+    Bu Katman İçin Kullanılabilecek Adresler Şunlardır:
+    <ul>
+      <li>**Başlangıç Sayfası main/welcome ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Welcome.js">Welcome Sayfası</a></li>
+      <li>main/postings ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/JobPostingList.js">İş İlanları Sayfası</a></li>
+      <li>main/login ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Login.js">Giriş Sayfası</a></li>
+      <li>main/register ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Register/Register.js">Kayıt Başlangıç Sayfası</a></li>
+      <li>main/employee/register ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Register/EmployeeRegister.js">İş Arayan Kayıt Tamamlama Sayfası</a></li>
+      <li>main/employer/register ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Register/EmployerRegister.js">İş Veren Kayıt Tamamlama Sayfası</a></li>
+    </ul>
+  </li>
+</ul>
+
+
 ### Admin Katmanı
+Deneme
+
+
 ### Employer Katmanı
+
+
 ### Employee Katmanı
 
 ## Proje Haritası
@@ -65,19 +87,6 @@
 * [Perfect Scrollbar](https://github.com/mdbootstrap/perfect-scrollbar)
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-## Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ## Projenin Kurulumu Ve Çalıştırılması
 
@@ -98,7 +107,7 @@ Komutu İle Projemizi Çalıştırıyoruz.
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -107,14 +116,14 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## Roadmap
+<!-- ## Roadmap
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
+ -->
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+<!-- ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -122,25 +131,25 @@ Contributions are what make the open source community such an amazing place to b
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+5. Open a Pull Request -->
 
 
 
 <!-- CONTACT -->
-## Contact
+<!-- ## Contact
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/fmutlu68/hrmsSystemUI](https://github.com/fmutlu68/hrmsSystemUI)
-<!-- 
+Project Link: [https://github.com/fmutlu68/hrmsSystemUI](https://github.com/fmutlu68/hrmsSystemUI) -->
+
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+<!-- ## Acknowledgements
 
 * []()
 * []()
-* []() -->
+* []() --> 
 
 
 
