@@ -37,14 +37,15 @@
       </ul>
       <a href="#proje-kurulumu-çalıştırılması">Projenin Kurulumu/Çalıştırılması</a>
       <ul>
-        <li><a href="#proje-kurulumu">Prerequisites</a></li>
-        <li><a href="#proje-çalıştırılması">Installation</a></li>
+        <li>
+          <a href="#proje-kurulumu">Proje Kurulumu</a>
+          <a href="#proje-çalıştırılması">Projenin Çalıştırılması</a>
+        </li>
       </ul>
-   
-    <a href="#proje-haritası">Proje Haritası</a>
-    <a href="#iletişim">İletişim</a>
-    <a href="#kapanış">Kapanış Ve Teşekkür</a>
-  
+
+      <a href="#proje-haritası">Proje Haritası</a>
+      <a href="#iletişim">İletişim</a>
+      <a href="#kapanış">Kapanış Ve Teşekkür</a>
     </li>
   </ol>
 </details>
