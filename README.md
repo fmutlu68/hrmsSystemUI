@@ -22,10 +22,7 @@
   <summary><h2 style="display: inline-block">Dökümantasyon İçeriği</h2></summary>
   <ol>
     <li>
-      <a href="#proje-hakkında">Proje Hakkında</a>
-      <ul>
-        <li>
-          <a href="#built-with">Proje Katmanları</a>
+      <a href="#built-with">Proje Katmanları</a>
           <ul>
             <li><a href="#built-with">Main - Genel Kullanıcı</a></li>
             <li><a href="#built-with">Admin - Sistem Yöneticisi</a></li>
@@ -33,9 +30,7 @@
             <li><a href="#built-with">Employee - İş Arayan/İşçi</a></li>
           </ul>
           <a href="#projede-kullanılan-teknolojiler">Projede Kullanılan Teknolojiler</a>
-        </li>
-      </ul>
-   </li>
+    </li>
     <li>
     <a href="#proje-kurulumu-çalıştırılması">Projenin Kurulumu/Çalıştırılması</a>
       <ul>
