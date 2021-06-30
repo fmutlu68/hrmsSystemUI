@@ -48,10 +48,11 @@
 <ul>
   <li>Bu Katman İçin Herhangi Bir Authentication İşlemi Gerekmemektedir.</li>
   <li>Projenin Başlangıç Sayfası Bu Katmandadır. (/main/welcome)</li>
+  <li>Bu Katmanın Layout'u Main Layout'tur. ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/layouts/Main.js">Main Layout</a></li>
   <li>
     Bu Katman İçin Kullanılabilecek Adresler Şunlardır:
     <ul>
-      <li>**Başlangıç Sayfası main/welcome ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Welcome.js">Welcome Sayfası</a></li>
+      <li>main/welcome ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Welcome.js">Welcome Sayfası</a></li>
       <li>main/postings ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/JobPostingList.js">İş İlanları Sayfası</a></li>
       <li>main/login ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Login.js">Giriş Sayfası</a></li>
       <li>main/register ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Register/Register.js">Kayıt Başlangıç Sayfası</a></li>
@@ -59,6 +60,25 @@
       <li>main/employer/register ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Register/EmployerRegister.js">İş Veren Kayıt Tamamlama Sayfası</a></li>
     </ul>
   </li>
+  <li>
+    Bu Katmanda Kullanılan Componentlar Şunlardır:
+    <ul>
+      <li>MainNavbar ==> <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/components/Navbars/MainNavbar.js">Navbar</a></li>
+    </ul>
+  </li>
+  <li>
+    Bu Katmanda Kullanılan Viewler Şunlardır: 
+    <ul>
+      <li>Hoşgeldiniz => <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Welcome.js">Welcome</a></li>
+      <li>Hoşgeldiniz Devam => <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/WelcomeChild.js">Welcome Child</a></li>
+      <li>Giriş => <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Login.js">Login</a></li>
+      <li>İş İlanları Listesi => <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/JobPostingList.js">JobPostingList</a></li>
+      <li>Kayıt Başlangıç =><a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Register/Register.js">Register</a></li>
+      <li>İş Veren Kayıt Devam => <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Register/EmployerRegister.js">Employer Register</a></li>
+      <li>İş Arayan Kayıt Devam => <a href="https://github.com/fmutlu68/hrmsSystemUI/blob/master/src/views/Main/Register/EmployeeRegister.js">Employee Register</a></li>
+    </ul>
+  </li>
+  <li>Bu Katmana Ait Resimler => <a href="#genel-kullanıcı-katmanı-resimler">Genel Kullanıcı Katmanı Resimler</a></li>
 </ul>
 
 
@@ -106,12 +126,30 @@ Komutu İle Projemizi Çalıştırıyoruz.
 
 
 
-<!-- USAGE EXAMPLES -->
-<!-- ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+## Genel Kullanıcı Katmanı Resimler
+<div>
+  <h4>Hoşgeldiniz Sayfası</h4>
+  <img src="https://github.com/fmutlu68/hrmsSystemUI/blob/master/documentation/images/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20(615).png">
+  <br />
+  <h4>Hoşgeldiniz Sayfası Devamı
+  </h4>
+  <img src="https://github.com/fmutlu68/hrmsSystemUI/blob/master/documentation/images/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20(618).png">
+  <br />
+  <h4>İş İlanları Sayfası **Bu Safyaya Henüz Sayfalama Eklenmedi.</h4>
+  <img src="https://github.com/fmutlu68/hrmsSystemUI/blob/master/documentation/images/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20(619).png">
+  <br />
+  <h4>Giriş Yap Sayfası</h4>
+  <img src="https://github.com/fmutlu68/hrmsSystemUI/blob/master/documentation/images/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20(600).png">
+  <br />
+  <h4>Kayıt Ol Sayfası</h4>
+  <img src="https://github.com/fmutlu68/hrmsSystemUI/blob/master/documentation/images/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20(601).png">
+  <br />
+  <h4>İş Veren Kayıt Ol Sayfası</h4>
+  <img src="https://github.com/fmutlu68/hrmsSystemUI/blob/master/documentation/images/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20(606).png">
+  <br />
+  <h4>İşçi Kayıt Ol Sayfası</h4>
+  <img src="https://github.com/fmutlu68/hrmsSystemUI/blob/master/documentation/images/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20(604).png">
+</div>
 
 
 
